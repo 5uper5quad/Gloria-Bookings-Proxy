@@ -1,0 +1,34 @@
+{
+  "name": "5arki5-proxy",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon --ignore node_modules server",
+    "react-dev": "webpack -d --watch"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.17.0",
+    "cors": "^2.8.5",
+    "express": "^4.15.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "axios": "^0.18.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+  }
+}
